@@ -138,7 +138,7 @@ Here hupu is a unauthorized access so it should so access denied.
 
 ```bash
 su - hupu
-cd /opy/projekti
+cd /opt/projekti
 ```
 
 **Images**
