@@ -9,6 +9,7 @@ The first objective required creating a standard user account named `tupu`. For 
 sudo adduser tupu
 ```
 **Image**
+
 ![step1](Images/tupu.png)
 
 ## Step 2: Provisioning the 'lupu' User via useradd
@@ -29,6 +30,7 @@ sudo useradd -m -d /home/lupu -s /bin/bash -g lupu lupu
 
 **Image**
 
+
 ![Step2](Images/lupu.png)
 
 ## Step 3: Configuring the 'hupu' System Account
@@ -37,6 +39,7 @@ A system-specific user named hupu was required for non-interactive processes. To
 sudo useradd --system --shell /bin/false hupu
 ```
 **Image**
+
 
 ![Step3](Images/hupu.png)
 
@@ -62,6 +65,7 @@ sudo usermod -aG sudo lupu
 ```
 
 **Images**
+
 
 ![Step4](Images/Step4.png)
 
@@ -99,6 +103,7 @@ sudo chmod g+s /opt/projekti
 ```
 
 **Images**
+
 
 ![Step 5](Images/Step5.png)
 
